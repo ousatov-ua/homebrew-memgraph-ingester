@@ -5,22 +5,22 @@
 class MemgraphIngester < Formula
   desc "Structure-aware rag for your entire codebase with project memory"
   homepage "https://github.com/ousatov-ua/memgraph-ingester"
-  url "https://github.com/ousatov-ua/memgraph-ingester/archive/refs/tags/v12.4.7.tar.gz"
-  version "12.4.7"
-  sha256 "66c06f3bc14425fb9011963ff3cb952ea80220724ac25a1e129c849e9dd2e047"
+  url "https://github.com/ousatov-ua/memgraph-ingester/archive/refs/tags/v12.4.8.tar.gz"
+  version "12.4.8"
+  sha256 "fca23be6634493ebe499544fabf19c86fbb66310febe44a289bfbf3897f182ad"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ousatov-ua/memgraph-ingester/releases/download/v12.4.7/memgraph-ingester-12.4.7-darwin-arm64.tar.gz"
-      sha256 "996ee45396294bcca30bc261873d968f25dc535909c452962b242d53aaf6bdd6"
+      url "https://github.com/ousatov-ua/memgraph-ingester/releases/download/v12.4.8/memgraph-ingester-12.4.8-darwin-arm64.tar.gz"
+      sha256 "028b199094ca47dc4af2532f5b189148ec10a33e413b1019a24cbab0f9c8c21f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ousatov-ua/memgraph-ingester/releases/download/v12.4.7/memgraph-ingester-12.4.7-linux-amd64.tar.gz"
-      sha256 "0eda0192260f551628cace435f65c1cadb6fb33bc5bc593fb232b4f92b29a961"
+      url "https://github.com/ousatov-ua/memgraph-ingester/releases/download/v12.4.8/memgraph-ingester-12.4.8-linux-amd64.tar.gz"
+      sha256 "229d4a1d110b3d741052f138239387fbdb08349178ec4a7c31fad30f9624e39a"
     end
   end
 
